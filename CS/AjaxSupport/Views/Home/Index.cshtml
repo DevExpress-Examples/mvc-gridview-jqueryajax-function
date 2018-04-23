@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    function OnClick(s, e) {
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("GridViewPartial")",
+            success: function(response) {
+                $("#container").html(response);
+            }
+        });
+    }
+</script>
+
+@Html.DevExpress().Button(settings => {
+    settings.Name = "MyButton";
+    settings.Text = "Click Me!!!";
+    settings.ClientSideEvents.Click = "OnClick";
+}).GetHtml()
+<div id="container" class="container">
+</div>

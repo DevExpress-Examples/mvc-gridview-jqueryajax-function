@@ -1,0 +1,4 @@
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "gridView";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+}).Bind(Model).GetHtml()
