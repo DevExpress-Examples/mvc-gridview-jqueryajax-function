@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/AjaxSupport/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/AjaxSupport/Controllers/HomeController.vb))
+* [GridViewPartial.cshtml](./CS/AjaxSupport/Views/Home/GridViewPartial.cshtml)
+* **[Index.cshtml](./CS/AjaxSupport/Views/Home/Index.cshtml)**
+<!-- default file list end -->
 # How to use the jQuery.ajax function with DevExpress MVC Extensions
 
 
