@@ -6,6 +6,9 @@
 * **[Index.cshtml](./CS/AjaxSupport/Views/Home/Index.cshtml)**
 <!-- default file list end -->
 # How to use the jQuery.ajax function with DevExpress MVC Extensions
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4063)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how you can use the <strong>jQuery.ajax</strong> function to load a GridView on a callback.<br />
