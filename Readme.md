@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # How to use the jQuery.ajax function with DevExpress MVC Extensions
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4063)**
+**[[Run Online]](https://codecentral.devexpress.com/e4063/)**
 <!-- run online end -->
 
 
