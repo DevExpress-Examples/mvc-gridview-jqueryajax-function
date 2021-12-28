@@ -15,7 +15,28 @@ This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jq
 
 ![A sample grid](images/grid-created-on-callback.png)
 
-**Note:** This feature has been implemented in v.12.1. For earlier versions, you can use a solution demonstrated in the following example: [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927).
+In this example, a grid is created when a user clicks the button on the page:
+
+```cshtml
+<script type="text/javascript">
+    function OnClick(s, e) {
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("GridViewPartial")",
+            success: function(response) {
+                $("#container").html(response);
+            }
+        });
+    }
+</script>
+@Html.DevExpress().Button(settings => {
+    settings.Name = "MyButton";
+    settings.Text = "Click Me!!!";
+    settings.ClientSideEvents.Click = "OnClick";
+}).GetHtml()
+```
+
+**Note:** The *jQuery.ajax* function has been supported in v.12.1. For earlier versions, you can use a solution demonstrated in the following example: [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927).
 
 ## Files to Look At
 
