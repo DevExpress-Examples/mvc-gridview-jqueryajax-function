@@ -15,7 +15,7 @@ This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jq
 
 ![A sample grid](images/grid-created-on-callback.png)
 
-In this example, a grid is created when a user clicks the button on the page:
+In this example, the grid is created when a user clicks the button on the page:
 
 ```cshtml
 <script type="text/javascript">
