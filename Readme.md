@@ -11,7 +11,7 @@
 <!-- run online end -->
 
 
-This example demonstrates how to use the **jQuery.ajax** function to load a GridView on a callback.
+This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
 
 ![A sample grid](images/grid-created-on-callback.png)
 
