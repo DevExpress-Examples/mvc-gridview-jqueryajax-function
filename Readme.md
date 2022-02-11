@@ -53,8 +53,4 @@ In this example, the grid is created when a user clicks the button on the page. 
 
 * [How to use the GridView extension in Full Screen mode (100% browser Width and Height)](https://github.com/DevExpress-Examples/how-to-use-the-gridview-extension-in-a-full-screen-mode-100-browser-width-and-height-e3958)
 * [GridView - How to edit in memory data source](https://github.com/DevExpress-Examples/gridview-how-to-edit-in-memory-data-source-e3983)
-<<<<<<< HEAD
 * [How to bind GridView to XPO in Server Mode](https://github.com/DevExpress-Examples/how-to-bind-gridview-to-xpo-in-server-mode-e2836)
-=======
-* [How to bind GridView to XPO in Server Mode](https://github.com/DevExpress-Examples/how-to-bind-gridview-to-xpo-in-server-mode-e2836)
->>>>>>> 20.2.7+
