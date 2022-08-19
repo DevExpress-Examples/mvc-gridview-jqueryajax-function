@@ -4,18 +4,18 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Grid View for MVC - How to Use the jQuery.ajax Function with DevExpress MVC Extensions
+# Grid View for MVC - How to use the jQuery.ajax function with DevExpress MVC extensions
 
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/128567137/)**
 <!-- run online end -->
 
 
-This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
+This example demonstrates how to use the [`jQuery.ajax`](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
 
 ![A sample grid](images/grid-created-on-callback.png)
 
-In this example, the grid is created when a user clicks the button on the page. Use the [ButtonSettings.ClientSideEvents](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.ButtonSettings.ClientSideEvents) property to handle button click events:
+In this example, the grid is created when a user clicks the button on the page. Use the [`ButtonSettings.ClientSideEvents`](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.ButtonSettings.ClientSideEvents) property to handle button click events:
 
 ```cshtml
 <script type="text/javascript">
@@ -36,7 +36,7 @@ In this example, the grid is created when a user clicks the button on the page. 
 }).GetHtml()
 ```
 
-**Note:** The *jQuery.ajax* function has been supported in v.12.1. For earlier versions, you can use a solution demonstrated in the following example: [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927).
+**Note:** The `jQuery.ajax` function has been supported in v.12.1. For earlier versions, you can use a solution demonstrated in the following example: [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927).
 
 ## Files to Look At
 
