@@ -11,11 +11,11 @@
 <!-- run online end -->
 
 
-This example demonstrates how to use the [`jQuery.ajax`](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
+This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
 
 ![A sample grid](images/grid-created-on-callback.png)
 
-In this example, the grid is created when a user clicks the button on the page. Use the [`ButtonSettings.ClientSideEvents`](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.ButtonSettings.ClientSideEvents) property to handle button click events:
+In this example, the grid is created when a user clicks the button on the page. Use the [ButtonSettings.ClientSideEvents](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.ButtonSettings.ClientSideEvents) property to handle button click events:
 
 ```cshtml
 <script type="text/javascript">
