@@ -11,11 +11,11 @@
 <!-- run online end -->
 
 
-This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load a GridView on a callback.
+This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load the [GridView extension](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) on a callback.
 
 ![A sample grid](images/grid-created-on-callback.png)
 
-In this example, the grid is created when a user clicks the button on the page. Use the [ButtonSettings.ClientSideEvents](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.ButtonSettings.ClientSideEvents) property to handle button click events:
+In this example, we handle a button's [Click](https://docs.devexpress.com/AspNet/DevExpress.Web.ButtonClientSideEvents.Click) event to call the `$.ajax()` function. The function sends an AJAX (asynchronous HTTP) request to the [GridViewPartial action](https://github.com/DevExpress-Examples/mvc-gridview-jqueryajax-function/blob/aefdc4cc44f29d8f03a8a4a0ed518bccb9143b48/CS/AjaxSupport/Controllers/HomeController.cs#L13) and renders the action result ([GridViewPartial.cshtml](./CS/AjaxSupport/Views/Home/GridViewPartial.cshtml)) to the `div` container.
 
 ```cshtml
 <script type="text/javascript">
@@ -36,13 +36,11 @@ In this example, the grid is created when a user clicks the button on the page. 
 }).GetHtml()
 ```
 
-**Note:** The `jQuery.ajax` function has been supported in v.12.1. For earlier versions, you can use a solution demonstrated in the following example: [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927).
-
 ## Files to Look At
 
-* [Index.cshtml](./CS/AjaxSupport/Views/Home/Index.cshtml)
+* [Index.cshtml](./CS/AjaxSupport/Views/Home/Index.cshtml)(VB: [Index.vbhtml](./VB/AjaxSupport/Views/Home/Index.vbhtml))
 * [HomeController.cs](./CS/AjaxSupport/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/AjaxSupport/Controllers/HomeController.vb))
-* [GridViewPartial.cshtml](./CS/AjaxSupport/Views/Home/GridViewPartial.cshtml)
+* [GridViewPartial.cshtml](./CS/AjaxSupport/Views/Home/GridViewPartial.cshtml)(VB: [GridViewPartial.vbhtml](./VB/AjaxSupport/Views/Home/GridViewPartial.vbhtml))
 
 ## Documentation
 
@@ -54,3 +52,4 @@ In this example, the grid is created when a user clicks the button on the page. 
 * [How to use the GridView extension in Full Screen mode (100% browser Width and Height)](https://github.com/DevExpress-Examples/how-to-use-the-gridview-extension-in-a-full-screen-mode-100-browser-width-and-height-e3958)
 * [GridView - How to edit in memory data source](https://github.com/DevExpress-Examples/gridview-how-to-edit-in-memory-data-source-e3983)
 * [How to bind GridView to XPO in Server Mode](https://github.com/DevExpress-Examples/how-to-bind-gridview-to-xpo-in-server-mode-e2836)
+* [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927)
