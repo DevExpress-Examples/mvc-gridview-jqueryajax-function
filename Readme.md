@@ -6,9 +6,6 @@
 
 # Grid View for APS.NET MVC - How to use the jQuery.ajax function with DevExpress MVC extensions
 
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128567137/)**
-<!-- run online end -->
 
 
 This example demonstrates how to use the [jQuery.ajax](https://api.jquery.com/jquery.ajax/) function to load the [GridView extension](https://docs.devexpress.com/AspNetMvc/8966/components/grid-view) on a callback.
