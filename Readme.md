@@ -52,7 +52,7 @@ In this example, we handle a button's [Click](https://docs.devexpress.com/AspNet
 * [How to bind GridView to XPO in Server Mode](https://github.com/DevExpress-Examples/how-to-bind-gridview-to-xpo-in-server-mode-e2836)
 * [How to load MVC extensions using the CallbackPanel extension](https://github.com/DevExpress-Examples/how-to-load-mvc-extensions-using-the-callbackpanel-extension-e2927)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-gridview-jqueryajax-function&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-gridview-jqueryajax-function&~~~was_helpful=no)
 
